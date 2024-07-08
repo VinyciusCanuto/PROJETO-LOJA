@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="projeto.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header class="header">
+        <section class="nav-container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Camisas</a></li>
+                    <li><a href="#">Calças</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </nav>
+        <img id="logo" src="image/logo.png" alt="Logo da loja">
+        <section class="header-icon">
+            <section class="icon search-icon">
+                <i class="fas fa-search"></i>
+            </section>
+            <section class="icon search-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </section>
+        </section>
+        </section>
+    </header>
+
+    <main class="product-container">
+        <section class="product-image">
+            <img src="image/image.png" alt="Camisa Polo">
+        </section>
+
+        <section class="product-details">
+            <h1 class="product-title">Gola polo sport</h1>
+
+            <section class="product-meta">
+                <section class="product-rating-and-reviews">
+                    <section class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <span class="reviews-count">78 avaliações</span>
+                    </section>
+                </section>
+
+                <p class="product-price">R$ 100,00</p>
+
+                <section class="product-colors">
+                    <h3>Cores disponíveis</h3>
+                    <ul class="color-list">
+                        <li class="color-option" data-color="Dark Navy"></li>
+                        <li class="color-option" data-color="Black"></li>
+                        <li class="color-option" data-color="Grey"></li>
+                    </ul>
+                </section>
+
+                <section class="product-sizes">
+                    <h3>Seleciona o tamanho</h3>
+                    <select id="size-select" name="sizes">
+                        <option value="small">P</option>
+                        <option value="medium">M</option>
+                        <option value="large">G</option>
+                    </select>
+                </section>
+
+                <button class="add-to-cart-btn">Adicionar ao carrinho</button>
+            </section>
+            
+            <section class="product-description">
+                <h2>Detalhes do Produto</h2>
+                <p>Camisa de alta qualidade, importado</p>
+            </section>
+        </section>
+    </main>
+    <footer class="transparency-section">
+        <section class="transparency-box">
+            <h2>Transparencia total</h2>
+            <p>Compreender e valorizar a importância de nossa vestimenta é
+                fundamental no aprendizado de viver com menos. Quanto mais sabemos,
+                melhores decisões fazemos, mais valorizamos o que temos, e como
+                resultado - menos necessitaremos.</p>
+        </section>
+        <section class="transparency-box">
+            <h3>Custo de Produção</h3>
+            <p>Detalhes todos os custos que temos para criar o produto.</p>
+            <a href="#">Ver detalhamento de custos</a>
+        </section>
+        <section class="transparency-box">
+            <h3>Rastreabilidade</h3>
+            <p>Saiba de onde vem o material para as suas roupas.</p>
+            <a href="#">Mostrar origem do produto</a>
+        </section>
+        <section class="transparency-box">
+            <h3>Impacto de CO2</h3>
+            <p>Veja a redução de impacto ambiental que tivemos no ano de 2024.</p>
+            <a href="#">Mostrar estudo</a>
+        </section>
+    </footer>
+</body>
+</html>
